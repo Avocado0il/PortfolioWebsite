@@ -1,28 +1,55 @@
-<div id="content"
-head {}
-h1 {
-  color: Green;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+  position: fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+  font-size:200%;
+  font-style:bold;
+  font-weight:bold;
   font-family: "helvetica";
-  text-indent: 35px;
-  font-size: 150%;
 }
-p{
-  font-size: 100%;
-  color: White;
-  font: "helvetica";
-  text-indent: 20px;
-  margin-left: 10px;
+
+.active{
+  background-color: blue;
 }
-img{
-  padding-left: 30px;
-  max-width: 500px;
-  height: auto;
+
+li{
+  float: left;
 }
-#content {
-  /*look up the hex code of the color you want to change the bg to*/
-  background-color: white;
-  min-height: 1000px;
-  padding: 10px;
-  margin: 10px;
-  border: solid 2px White;
-  font-size: 20px;
+
+li a{
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: CornflowerBlue;
+}
